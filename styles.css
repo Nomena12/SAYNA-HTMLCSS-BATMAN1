@@ -1,4 +1,44 @@
-body {background-color:black;}
+*{margin: 0%;
+padding:0%;
+font-family: Arial, Helvetica, sans-serif;}
+
+nav ul{list-style-type: none;}
+nav li{float: right;
+width: 9%;
+text-align: center;}
+
+nav a{display: block;
+text-decoration: none;
+color: rgb(255, 255, 255);}
+
+nav a:hover{color: rgb(236, 191, 131);
+border-bottom: 2px solid gold;}
+
+nav ul::after{content:"";
+display: table;
+clear: both;}
+
+body{padding: 30px; ;}
+
+
+body {background-color:black ;}
 p,h1,h2 {color: aliceblue;}
 button:hover {background-color: #cce4f1; color: rgb(156, 137, 108);}
 button {padding: 20px;  font-size: medium;}
+
+.poto {position: relative;
+    text-align: center;
+left: 0px;
+top: 500px;}
+
+.poto1 {position: relative;
+    text-align: center;
+left: 0px;
+top: 550px;}
+
+.btn1 {position: relative;
+left: 450px;
+top: 600px}
+.btn2 {position: relative;
+left: 500px;
+top: 600px}
