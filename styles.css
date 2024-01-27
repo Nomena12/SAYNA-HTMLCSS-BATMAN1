@@ -12,11 +12,12 @@ text-decoration: none;
 color: rgb(255, 255, 255);}
 
 nav a:hover{color: rgb(236, 191, 131);
-border-bottom: 2px solid gold;}
+}
 
 nav ul::after{content:"";
 display: table;
 clear: both;}
+
 
 body{padding: 30px; ;}
 
@@ -29,16 +30,16 @@ button {padding: 20px;  font-size: medium;}
 .poto {position: relative;
     text-align: center;
 left: 0px;
-top: 500px;}
+top: 400px;}
 
 .poto1 {position: relative;
     text-align: center;
 left: 0px;
-top: 550px;}
+top: 450px;}
 
 .btn1 {position: relative;
-left: 450px;
-top: 600px}
+left: 300px;
+top: 500px}
 .btn2 {position: relative;
-left: 500px;
-top: 600px}
+left: 350px;
+top: 500px}
