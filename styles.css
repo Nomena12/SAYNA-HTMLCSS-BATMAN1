@@ -23,7 +23,7 @@ body{padding: 30px; ;}
 
 
 body {background-color:black ;}
-p,h1,h2 {color: aliceblue;}
+p,h1,figcaption {color: aliceblue;}
 button:hover {background-color: #cce4f1; color: rgb(156, 137, 108);}
 button {padding: 20px;  font-size: medium;}
 
