@@ -26,20 +26,3 @@ body {background-color:black ;}
 p,h1,figcaption {color: aliceblue;}
 button:hover {background-color: #cce4f1; color: rgb(156, 137, 108);}
 button {padding: 20px;  font-size: medium;}
-
-.poto {position: relative;
-    text-align: center;
-left: 0px;
-top: 400px;}
-
-.poto1 {position: relative;
-    text-align: center;
-left: 0px;
-top: 450px;}
-
-.btn1 {position: relative;
-left: 300px;
-top: 500px}
-.btn2 {position: relative;
-left: 350px;
-top: 500px}
