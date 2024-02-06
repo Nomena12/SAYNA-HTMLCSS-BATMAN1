@@ -26,3 +26,11 @@ body {background-color:black ;}
 p,h1,figcaption,h2 {color: aliceblue;}
 button:hover {background-color: #cce4f1; color: rgb(156, 137, 108);}
 button {padding: 20px;  font-size: medium;}
+
+/* style css class box */
+
+.box {
+    border: 4px solid white;
+max-width: 800px ;
+max-height: 150px;
+}
