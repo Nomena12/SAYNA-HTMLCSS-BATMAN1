@@ -238,5 +238,6 @@ input[name="commentaire"] {
 }
 
 button[type="submit"] {
+    opacity: 0.4;
     
 }
