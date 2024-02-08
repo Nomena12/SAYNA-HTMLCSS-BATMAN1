@@ -10,10 +10,13 @@ box-sizing: border-box;}
     src: url(police/Rajdhani-Medium.ttf);
 }
 
+
+
 :root {
     --yellow-color: #FFFF00;
     --yellow-lite: #F8F184;
     --white-color : #fff;
+    --blue-color :#1100ff ;
 
 }
 
@@ -28,6 +31,10 @@ button {
     font-family: "Rajdhani" ;
     font-size: 20px;
     font-weight: 400;
+    width: 150px;
+    height: 30px;
+    
+
 }
 
 .container {
@@ -48,7 +55,7 @@ padding: 50px;}
 nav a{
 color: var(--white-color)}
 
-nav a:hover{color: rgb(236, 191, 131);
+nav a:hover{color: #ecbf83;
 }
 
 nav ul::after{content:"";
@@ -176,4 +183,60 @@ figcaption {
 .zoom img:hover {
     width: 350px ;
     height: 500px ;
+}
+
+/* style pour le formulaire linear(to right rgba(0, 26, 255, ),rgba(0,26,255,0.6),rgba(0,26,255,)80%,rgba(0,26,255,)); 
+#EDDEBF 19587D 40%  /  border-top-color: var(--blue-color);
+    border-right-color: var(--blue-color);
+    border-left-color: var(--blue-color); background-color: var(--blue-color);
+*/
+
+form {
+    background: linear-gradient(to right bottom,rgba(237, 222, 191,0.4),rgba(25, 88, 125,0.4)) ;
+    height: 700px;
+    padding-bottom: 50px;
+    
+}
+
+.formul {
+   
+    height: 700px;
+    line-height: 50px;
+    
+} 
+
+form h1 {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.btn6 {
+    margin: 0 40px 0 40px;
+}
+  
+
+.btn5 {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+
+#email {
+    background: linear-gradient(to right bottom,rgba(237, 222, 191,0.8),rgba(25, 88, 125,0.8)) ;
+    width: 800px;
+   
+    border-bottom:2px solid white ;
+    
+}
+
+input[name="commentaire"] {
+    background: linear-gradient(to right bottom,rgba(237, 222, 191,0.8),rgba(25, 88, 125,0.8)) ;
+    width: 800px;
+    
+    border-bottom:2px solid white ;
+}
+
+button[type="submit"] {
+    
 }
