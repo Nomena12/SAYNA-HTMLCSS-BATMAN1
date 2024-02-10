@@ -32,7 +32,7 @@ button {
     font-size: 20px;
     font-weight: 400;
     width: 150px;
-    height: 30px;
+    height: 50px;
     
 
 }
@@ -101,9 +101,23 @@ h2 {
 
 .fraise{
     margin-top: 25px;
+    align-items: center;
+    padding-right: 55px;
+    opacity: 0.4;
 }
-.btn2 {
+.btn2,.btn1 {
     margin-left: 35px;
+    width: 170px;
+    color: white;
+    border: none;
+    
+    
+}
+
+.btn2 a:link, .btn1 a:link {
+    text-decoration-color: #fff;
+    
+font-size:small;
 }
 
 
