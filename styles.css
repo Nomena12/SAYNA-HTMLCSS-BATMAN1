@@ -173,7 +173,6 @@ img[class="lougo"]:hover, img[class="arrow"]:hover  {
 }
 
 .down{
-    border: 4px solid rgb(255, 255, 255);
     text-align: center;
     margin-top: 180px;
 }
@@ -181,7 +180,6 @@ img[class="lougo"]:hover, img[class="arrow"]:hover  {
 
 /* css du corps */
 .box {
-    border: 4px solid rgb(255, 255, 255);
     max-width: 800px ;
     max-height: 250px;
     padding: 15px;
@@ -189,11 +187,7 @@ img[class="lougo"]:hover, img[class="arrow"]:hover  {
 }
 
 
-.box2{
-    
-    border: 4px solid rgb(255, 255, 255);
-      
-}
+
 
 .img1 {
     padding-left: 300px;
@@ -244,7 +238,6 @@ figcaption {
 */
 
 .sary {
-    border: 2px solid white;
     margin: 50px 0 50px 0;
     display: flex;
     flex-direction: row;
@@ -268,7 +261,6 @@ figcaption {
 }
 iframe {
     margin: 50px 0 50px 0;
-    border: 2px solid white;
     
 }
 
