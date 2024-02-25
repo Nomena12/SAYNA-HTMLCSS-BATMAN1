@@ -381,3 +381,71 @@ button .btn4 {
     width: 170px;
 }
 
+/* CSS footer */
+
+ div[class="citation"]{
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+}
+
+.above{
+    margin-bottom: 20px;
+}
+.under{
+   
+    font-size: small;
+    color: rgb(208, 208, 250);
+}
+
+blockquote{
+position: absolute;
+left: 450px;
+}
+
+
+.aboveout{
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+
+.underout{
+    position: absolute;
+    bottom: 80px;
+    right: 250px;
+}
+
+.ft1 p {
+    font-size: x-small;
+}
+
+.ft1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ftout{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ft2{
+    margin-right: 50px;
+    word-spacing: 10px;
+    
+}
+
+
+.ft3{
+    word-spacing: 10px;
+    
+}
